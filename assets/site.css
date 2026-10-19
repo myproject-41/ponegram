@@ -278,41 +278,6 @@ header {
   isolation: isolate;
 }
 
-.hero-art::before {
-  position: absolute;
-  z-index: -1;
-  width: 74%;
-  aspect-ratio: 1;
-  border: 1px solid rgba(113, 82, 197, .13);
-  border-radius: 50%;
-  content: "";
-}
-
-.orb {
-  position: relative;
-  width: min(390px, 80%);
-  background: radial-gradient(circle at 32% 24%, #a5fbff 0 5%, #428fe9 23%, #6252e2 49%, #a24ed5 67%, transparent 69%);
-  opacity: .76;
-  box-shadow: 0 30px 100px rgba(91, 71, 191, .2), inset 0 0 65px rgba(255, 255, 255, .28);
-}
-
-.orb::after {
-  border-color: rgba(255, 255, 255, .5);
-  background: radial-gradient(circle at 50% 43%, rgba(255, 255, 255, .48), transparent 30%), rgba(27, 25, 61, .74);
-  box-shadow: inset 0 0 50px rgba(112, 164, 255, .28);
-}
-
-.orbit {
-  width: 82%;
-  border-color: rgba(99, 76, 179, .22);
-}
-
-.logo-hero {
-  width: 68%;
-  max-width: 340px;
-  filter: drop-shadow(0 14px 24px rgba(62, 47, 111, .18));
-}
-
 section {
   padding: 88px 0;
 }
@@ -1049,14 +1014,6 @@ footer {
     min-height: 320px;
   }
 
-  .orb {
-    width: min(280px, 78vw);
-  }
-
-  .logo-hero {
-    width: min(215px, 63vw);
-  }
-
   section {
     padding: 65px 0;
   }
@@ -1355,38 +1312,6 @@ header {
 .hero-note i {
   background: #71e0c0;
   box-shadow: 0 0 14px rgba(113, 224, 192, .48);
-}
-
-.hero-art::before {
-  border-color: rgba(157, 143, 255, .2);
-  box-shadow: 0 0 90px rgba(91, 76, 200, .08);
-}
-
-.orb {
-  background: radial-gradient(circle at 32% 24%, #b2fff0 0 4%, #45bbcb 20%, #4e52c2 46%, #8a4db0 67%, transparent 69%);
-  opacity: .8;
-  box-shadow: 0 30px 100px rgba(76, 78, 190, .2), inset 0 0 65px rgba(255, 255, 255, .24);
-}
-
-.orb::after {
-  border-color: rgba(226, 225, 255, .45);
-  background: radial-gradient(circle at 50% 43%, rgba(201, 234, 255, .24), transparent 30%), rgba(10, 12, 22, .72);
-  box-shadow: inset 0 0 50px rgba(109, 132, 255, .2);
-}
-
-.orbit {
-  border-color: rgba(164, 153, 255, .24);
-}
-
-.orbit::before,
-.orbit::after {
-  background: #7be7d4;
-  box-shadow: 0 0 20px rgba(123, 231, 212, .78);
-}
-
-.orbit::after {
-  background: #b29aff;
-  box-shadow: 0 0 20px rgba(178, 154, 255, .75);
 }
 
 section {
